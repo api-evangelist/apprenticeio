@@ -1,0 +1,31 @@
+generated: '2026-07-17'
+method: searched
+probe: false
+source: https://www.apprentice.io/platform/security-compliance
+url: https://www.apprentice.io/learn/trust-center
+description: >-
+  Apprentice's security & compliance posture for the Tempo Manufacturing Cloud,
+  captured from the public Security & Compliance page and Trust Center. Apprentice
+  is a validated, cloud-native manufacturing platform for regulated life-sciences
+  and pharmaceutical production. The automated trust-center probe did not record a
+  hit because certifications are published on the marketing security-compliance
+  page rather than a trust.<domain> subdomain meeting the probe's keyword
+  threshold — this is the searched, human-verified fill.
+certifications:
+  - {name: SOC 2 Type II, note: Information security and privacy controls audited annually.}
+  - {name: ISO 27001, version: '2022', note: Information Security Management System certification.}
+  - {name: GDPR, note: EU data privacy compliance.}
+  - {name: 21 CFR Part 11, scope: FDA electronic records / electronic signatures for regulated manufacturing.}
+  - {name: GMP / cGxP, note: Good Manufacturing Practice and current Good x Practice quality standards.}
+security_features:
+  - SSO (Single Sign-On) integration
+  - Multi-factor authentication (MFA)
+  - Permission-based access controls
+  - System PIN
+  - Quarterly software updates
+  - Risk-based security approach
+docs:
+  - https://www.apprentice.io/platform/security-compliance
+  - https://www.apprentice.io/learn/trust-center
+evidence:
+  - {source: https://www.apprentice.io/platform/security-compliance, keywords: [soc 2 type ii, iso 27001, 21 cfr part 11, gdpr, gmp, cgxp]}

@@ -1,0 +1,20 @@
+generated: '2026-07-17'
+method: searched
+source: live probes of /.well-known/* on apprentice.io hosts
+host: https://www.apprentice.io
+documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+    host: https://navigator.apprentice.io
+  - path: /.well-known/security.txt
+    status: 404
+    host: https://navigator.apprentice.io
+notes: >-
+  No /.well-known/ discovery documents are published on the public apprentice.io
+  or navigator.apprentice.io hosts. The Apprentice Public API is customer/login
+  gated (per navigator.apprentice.io docs, developers consult their delivery
+  lead), so there is no public API host to probe. Absence is expected and recorded.
